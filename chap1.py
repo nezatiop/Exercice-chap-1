@@ -21,9 +21,10 @@ print((Fahrenheit-32)/1.8)
 rayon = float(input())
 print((rayon**2)*m.pi)
 """
-
+"""
 secondes = int(input())
 heure = secondes // 3600
 minute = (secondes - (heure * 3600)) // 60
 seconde = secondes - (heure * 3600) - (minute * 60)
-print("%d:%2d:%0d" % (heure, minute, seconde))
+print("%d:%2d:%0d" % (heure, minute, seconde)) # pour prouver un peu
+"""
